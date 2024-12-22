@@ -1,26 +1,34 @@
-# Getting Started with Create React App
+**Weather App**
+A simple and responsive weather application built using React.js and the Weather API. This app allows users to check real-time weather conditions for any city or location worldwide.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-
+**Features**
+ -> 🌍 Search for any city to get its current weather information.
+ -> 🌦️ Displays real-time weather data:
+ -> Temperature (Celsius/Fahrenheit)
+ -> Humidity
+ -> Wind speed
+ -> Weather conditions (e.g., sunny, cloudy, rainy)
+ -> 🎨 Dynamic background themes based on weather conditions.
+ -> ⚠️ Error handling for invalid city names or API failures
+ 
+** Weather App Image**
 ![image alt](https://github.com/Karthigaravinr/Weather-App/blob/52bf6030c59ede5307f0ee14f3eaaf890c7d32dc/Weather.png)
 
 
+**Technologies Used**
+  React.js: Front-end framework for building the user interface.
+  Weather API: Fetch real-time weather data (e.g., OpenWeatherMap API).
+  CSS: Styling for a clean and responsive layout.
+  Axios: For making API calls.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+ **Installation and Setup**
+  Clone the Repository
+    -> git clone https://github.com/your-username/weather-app.git
+    -> cd weather-app
+  Install Dependencies
+    -> npm install
+  Start the Application
+    -> npm start
+    -> Open http://localhost:3000 in your browser to view the app.
+ 
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
